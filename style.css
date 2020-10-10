@@ -47,10 +47,12 @@ body {
     font-size: 16px;
     color: white;
     font-weight: 500;
+    margin-top: 30px;
 }
 
 .cenovka {
     display: absolute;
+    margin-top: -50px;
 }
 
 .cena{
@@ -86,7 +88,7 @@ body {
     font-size: 14px;
     padding-bottom: 30px;
     padding-top: 30px;
-    border-bottom: 1px solid #06d7c1;
+    border-bottom: 1.5px solid #06d7c1;
 }
 
 .parametr {
@@ -104,5 +106,4 @@ body {
 
 .li {
     display: inline-block;
-    padding: 10px;
 }
