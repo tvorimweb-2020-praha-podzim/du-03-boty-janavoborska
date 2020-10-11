@@ -104,10 +104,35 @@ body {
 
 .velikosti {
     display: flex;
-    justify-content: center;
-    
+
 }
 
-.li {
+.velikosti li {   
     display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+}
+
+.vybrana {
+    color: #f15f42;
+    border: solid 1px #f15f42;
+    border-radius: 50%;
+}
+
+.tlacitko {
+    display: block;
+    text-decoration: none;
+    background-color: #f15f42;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 20px 20px 15px;
+    width: 120px;
+    height: 40px;
+    border-radius: 7%;
+}
+
+.akce {
+    margin-top: 50px;
 }
