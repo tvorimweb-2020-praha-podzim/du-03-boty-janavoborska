@@ -75,6 +75,7 @@ body {
     padding: 0 30px 30px 30px;
     border-radius: 0 2% 2% 0;
     background-color: ivory;
+    position: relative;
 }
 
 .nazev {
@@ -104,15 +105,14 @@ body {
 
 .velikosti {
     display: flex;
-
+    justify-content: space-between;
 }
 
 .velikosti li {  
-    flex-grow: 1;
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    margin: 10px; 
+    padding: 3px;
 }
 
 .vybrana {
@@ -129,14 +129,18 @@ body {
     font-size: 16px;
     text-align: center;
     padding: 10px 20px 20px 15px;
-    width: 120px;
-    height: 40px;
     border-radius: 7%;
 }
 
 .akce {
     margin-top: 50px;
+    position: absolute;
 }
 
-
+.velikosti li:hover,
+.velikosti li:focus {
+    border:1px solid #f15f42;
+    border-radius: 50%;
+    background-color:  #f15f42;
+}
 
