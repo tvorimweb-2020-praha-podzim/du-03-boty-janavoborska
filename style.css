@@ -35,7 +35,7 @@ body {
     background: linear-gradient(#06d7c1,#50cc49);
     border-radius: 2% 0 0 2%;
     padding: 30px;
-    display: relative;
+    position: relative;
     width: 335px;
 }
 
@@ -51,9 +51,10 @@ body {
 }
 
 .cenovka {
-    display: absolute;
-    margin-top: -80px;
-    margin-left: 160px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
 }
 
 .cena{
@@ -66,9 +67,6 @@ body {
     font-size: 12px;
     font-weight: 400;
     color: white;
-    margin-left: -36px;
-    width: 300px;
-    text-align: left;
 }
 
 .detaily {
