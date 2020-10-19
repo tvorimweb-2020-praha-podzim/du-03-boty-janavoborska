@@ -33,7 +33,7 @@ body {
 
 .vizual {
     background: linear-gradient(#06d7c1,#50cc49);
-    border-radius: 2% 0 0 2%;
+    border-radius: 10px 0 0 10px;
     padding: 30px;
     position: relative;
     width: 335px;
@@ -71,7 +71,7 @@ body {
 
 .detaily {
     padding: 0 30px 30px 30px;
-    border-radius: 0 2% 2% 0;
+    border-radius: 0 10px 10px 0;
     background-color: ivory;
     position: relative;
 }
@@ -127,8 +127,8 @@ body {
     color: white;
     font-size: 16px;
     text-align: center;
-    padding: 10px 20px 20px 15px;
-    border-radius: 7%;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
 }
 
 .akce {
